@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Jost;
+  src: url("./assets/font/Jost/Jost-VariableFont_wght.ttf");
+}
+.cb {
+  color: #5697d8 !important;
+}

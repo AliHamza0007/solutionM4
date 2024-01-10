@@ -1,0 +1,13 @@
+.input {
+  background: #111111 !important;
+  color: white !important;
+  padding: 15px 20px !important;
+  border: 1px solid gray !important;
+}
+.input:focus {
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+.colorContainer {
+  background: #111111;
+}

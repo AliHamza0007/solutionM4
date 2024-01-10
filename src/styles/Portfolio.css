@@ -1,0 +1,88 @@
+.swiperImgDiv {
+  background: 191919;
+  margin: 20px 0px;
+  transition: all 0.5s ease-out;
+}
+.swiperImgDiv:hover {
+  transition: all 0.5s ease-in;
+  margin: 0;
+}
+.swiperImg {
+  z-index: 1;
+  height: 500px !important;
+  width: 800px !important;
+  transform: scale(1.3);
+}
+.portfolioBG {
+  background: #111111;
+}
+.bgShade {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #739bdf;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.swiperContent {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: end;
+  align-items: center;
+  transition: all 0.5s ease-out;
+  color: white;
+  opacity: 0;
+}
+.swiperContent:hover {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+.swiperImgDiv:hover > .bgShade {
+  opacity: 0.6;
+  transition: all 0.5s ease-in;
+}
+.bg2 {
+  background-color: #191919;
+}
+
+.watchVedio {
+  height: 80% !important;
+  width: 80%;
+}
+.playIcon {
+  color: #5697d8;
+  font-size: 7rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease-out;
+}
+
+.vedioBox:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+.vedioBox > .watchVedio:hover ~ .playIcon {
+  font-size: 8rem !important;
+}
+.playIcon:hover {
+  cursor: pointer;
+  font-size: 8rem !important;
+  transition: all 0.5s ease-in;
+}
+@media screen and (max-width: 425px) {
+  .playIcon {
+    font-size: 4rem !important;
+  }
+}

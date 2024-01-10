@@ -1,0 +1,10 @@
+.hr {
+  width: 55px;
+  margin-bottom: 0.5rem;
+  height: 5px;
+  display: inline-block;
+  background: linear-gradient(to left, #55b4d4, #5758e0);
+}
+.bgAbout {
+  background: #191919 !important;
+}

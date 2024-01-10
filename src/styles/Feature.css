@@ -1,0 +1,27 @@
+.featureBG {
+  background-color: #000000 !important;
+}
+.featureDropdown {
+  background: #191919 !important;
+  cursor: pointer;
+}
+.featureDropdown.show {
+  border-bottom: 2px solid #5758e0;
+}
+
+.dropdown-menu {
+  background-color: #000000 !important;
+}
+.dropdown-menu.show {
+  position: static !important;
+  inset: 0;
+  transform: none !important;
+}
+.iconAdd {
+  transition: all 0.2s ease-out !important;
+}
+
+.featureDropdown.show > .iconAdd {
+  transform: rotate(45deg);
+  transition: all 0.2s ease-in !important;
+}

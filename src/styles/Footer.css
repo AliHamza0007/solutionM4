@@ -1,0 +1,10 @@
+.footer {
+  background: #040402;
+}
+.footerCb {
+  color: #55b2d5 !important;
+}
+.footerCb:hover {
+  cursor: pointer;
+  color: #575ee0 !important;
+}

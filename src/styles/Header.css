@@ -1,0 +1,44 @@
+.nav-link {
+  color: white !important;
+  cursor: pointer;
+  font-weight: 500 !important;
+  font-size: 14px;
+  padding: 0.4rem;
+}
+.nav-link:hover {
+  color: #5697d8 !important;
+}
+.nav-link.active {
+  color: #5697d8 !important;
+}
+
+.btnGetStarted:hover .nav-link {
+  color: white !important;
+}
+.btnGetStarted:hover {
+  background: #5758e0;
+  color: white !important;
+}
+.navbar-toggler-icon {
+  color: white !important;
+  background-image: none !important;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.collapsing {
+  transition: 1s !important;
+}
+
+button[aria-expanded="true"] .fa-bars {
+  display: none;
+  transition: 1s;
+}
+button[aria-expanded="false"] .fa-times {
+  display: none;
+  transition: 1s;
+}
